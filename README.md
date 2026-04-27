@@ -151,7 +151,7 @@ We currently do not support native MCP Server, but we have OpenAPI documentation
 
 [FAQs](./docs/faqs.md)
 
-## 💖 Credits
+## 💖 Credits 
 
 1. [**Cloudflare**](https://www.cloudflare.com/)
 2. [**NuxtHub**](https://hub.nuxt.com/)
