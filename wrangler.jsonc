@@ -2,6 +2,9 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "cvpw-sink",
   "main": ".output/server/index.mjs",
+	"vars": {
+		"NUXT_HOME_URL": "https://www.civilianpower.com/"
+	},
   "assets": {
     "binding": "ASSETS",
     "directory": ".output/public",
@@ -47,5 +50,12 @@
   ],
   "triggers": {
     "crons": ["0 0 * * *"] // Run backup task daily at 00:00 UTC
-  }
+  },
+	"routes": [
+		{
+			"pattern": "cvpw.us",
+			"zone_name": "cvpw.us",
+			"custom_domain": true
+		}
+	]
 }
