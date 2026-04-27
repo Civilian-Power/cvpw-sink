@@ -57,7 +57,7 @@
 - **🖼️ OpenGraph Preview:** Custom social media previews with title, description, and image.
 - **📊 Real-time Analytics:** Live 3D globe visualization and real-time event logs.
 - **🔲 QR Code:** Generate QR codes for your short links.
-- **📦 Import/Export:** Bulk migration via JSON/CSV files.
+- **📦 Import/Export:** Bulk migration via JSON/CSV files. 
 - **🌍 Multi-language:** Full i18n support for the dashboard.
 - **🌙 Dark Mode:** Light, dark, and system theme support.
 
